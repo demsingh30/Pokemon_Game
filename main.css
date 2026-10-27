@@ -1,0 +1,49 @@
+body {
+  font-family: 'Courier New', monospace;
+  background: #1e3a8a;
+  color: #fde047;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  text-shadow: 3px 3px 0 #1d4ed8, 5px 5px 0 #000;
+  font-size: 2.5rem;
+}
+
+#pokemon-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 1.5rem auto;
+  transition: filter 0.8s;
+}
+
+#pokemon-img:not(.hidden-pokemon) {
+  background: radial-gradient(circle, #fff 0%, #93c5fd 100%);
+}
+
+.hidden-pokemon { filter: brightness(0);  image-rendering: pixelated;
+}
+
+#guess {
+  padding: 0.6rem;
+  border: 3px solid #fde047;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#guess-btn, #reset-btn {
+  padding: 0.6rem 1.2rem;
+  background: #dc2626;
+  color: white;
+  border: 3px solid #000;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#guess-btn:hover { background: #ef4444; transform: scale(1.05); }
+
+#result { font-size: 1.5rem; margin-top: 1rem; }
