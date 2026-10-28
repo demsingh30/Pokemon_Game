@@ -1,6 +1,6 @@
 Who's That Pokémon?
 
-demsingh30.github.io/Pokemon_Game	
+https://demsingh30.github.io/Pokemon_Game	
 
 A guessing game inspired by the classic "Who's That Pokémon?" reveal. A random first-generation Pokémon shows up as a black pixelated silhouette. Type your guess, and if you're right, the silhouette turns into the full sprite and you earn a point.
 
