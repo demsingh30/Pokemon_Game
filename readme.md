@@ -1,5 +1,7 @@
 Who's That Pokémon?
 
+https://demsingh30.github.io/Pokemon_Game/
+
 A guessing game inspired by the classic "Who's That Pokémon?" reveal. A random first-generation Pokémon shows up as a black pixelated silhouette. Type your guess, and if you're right, the silhouette turns into the full sprite and you earn a point.
 
 I built it while learning JavaScript API's, as a small project I actually wanted to play.
@@ -7,6 +9,7 @@ I built it while learning JavaScript API's, as a small project I actually wanted
 Add a screenshot here: ![Who's That Pokémon? screenshot](pokemon.png) 
 
 
+<!-- Add a screenshot here: ![Who's That Pokémon? screenshot](screenshot.png) -->
 How to play
 Look at the silhouette.
 Type your guess and click Guess.
@@ -20,7 +23,6 @@ Guess matching ignores capital letters and extra spaces
 Points saved with localStorage, so they survive a refresh
 Reset button for points
 A "stamp" that stops the same Pokémon from earning a second point
-One try per Pokémon: reveal the answer on a wrong guess, then move on to the next one without reloading
 Built with
 HTML
 CSS (filter, image-rendering, :not())
@@ -39,10 +41,10 @@ Where a variable lives (its scope) decides who can see it
 A check only looks; a stamp writes (=== asks, = writes)
 How to debug: read the Console, shrink the problem, change one thing, test
 What's next
+One try per Pokémon: reveal the answer on a wrong guess, then move on to the next one without reloading
 Hint button
 Pick which generations to play
 Make it playable online
-Make a database/leaderboard
 Credits
 
 Pokémon and Pokémon character names are trademarks of Nintendo, Game Freak, and Creatures Inc. This is a fan project made for learning, with no commercial purpose. Data and sprites come from PokéAPI.
